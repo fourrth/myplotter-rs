@@ -1,0 +1,9 @@
+[package]
+name = "myplotter-rs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+plotly = {version = "*",features = ["plotly_embed_js"]}
+thiserror = {version = "2.0"}
+serde_core = {version = "1"}
